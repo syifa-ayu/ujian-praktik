@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Pangolin&display=swap');
+
+.wrapper{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.flex-wrapper{
+  flex-direction: column;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  height: 319px;
+  z-index: 100;
+  position: relative;
+}
+
+.gambar{
+  background-image: url(./landing/storage/bg.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+} 
+
+.flex-judul{
+  display: flex;
+  flex: 3;
+  margin-left: 240px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.judul{
+  display: flex;
+  margin-top: 80px;
+}
+
+.save{
+  line-height: 110px;
+  color: black;
+  font-weight: 800;
+  font-size: 60px;
+  font-family: 'Pangolin', cursive;
+}
+
+.flex-konten{
+  line-height: 0;
+  font-size: 25px;
+  color: white;
+  font-family: 'Pangolin', cursive;
+}
+
+.konten{
+  font: 100;
+  margin-left: 250px;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.flex-button{
+  margin-left: 250px;
+  margin-top: 30px;
+  background-color: #0fb694;
+  width: 20%;
+  border-radius: 10px;
+}
+
+.button{
+ text-align: center;
+ font-weight: bold;
+}
+
+.flex-button1{
+  margin-left: 250px;
+  margin-top: 30px;
+  border: solid #0fb694;
+  background-color: paleturquoise;
+  width: 20%;
+  border-radius: 10px;
+}
+
+.button1{
+ text-align: center;
+ font-weight: bold;
+}
+
